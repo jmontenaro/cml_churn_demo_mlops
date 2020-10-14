@@ -157,8 +157,8 @@ with open('lineage.yml', 'w') as lineage:
 
 
 # Create Model
-example_model_input = {"StreamingTV": "No", "MonthlyCharges": 70.35, "PhoneService": "No", "PaperlessBilling": "No", "Partner": "No", "OnlineBackup": "No", "gender": "Female", "Contract": "Month-to-month", "TotalCharges": 1397.475,
-                       "StreamingMovies": "No", "DeviceProtection": "No", "PaymentMethod": "Bank transfer (automatic)", "tenure": 29, "Dependents": "No", "OnlineSecurity": "No", "MultipleLines": "No", "InternetService": "DSL", "SeniorCitizen": "No", "TechSupport": "No"}
+example_model_input = {"TextAlerts": "No", "MonthlyCharges": 70.35, "SavingsAccount": "No", "PaperlessStatements": "No", "Partner": "No", "AccountTransfer": "No", "Gender": "Female", "Engagement": "Month-to-month", "TotalCharges": 1397.475,
+                       "Rewards": "No", "OnlineBillPay": "No", "PaymentMethod": "Bank transfer (automatic)", "Tenure": 29, "Dependents": "No", "OverdraftProtection": "No", "Multiple": "No", "VirtualWallet": "Virtual Wallet", "SeniorCitizen": "No", "EmailAlerts": "No"}
 
 create_model_params = {
     "projectId": project_id,

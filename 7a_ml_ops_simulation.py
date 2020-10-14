@@ -170,7 +170,7 @@ for record in json.loads(df_sample_clean.to_json(orient='records')):
   print("Added {} records".format(percent_counter)) if (percent_counter%50 == 0) else None
   percent_counter += 1
   no_churn_record = copy.deepcopy(record)
-  no_churn_record.pop('customerID')
+  no_churn_record.pop('CustomerID')
   no_churn_record.pop('Churn')
   # **note** this is an easy way to interact with a model in a script
   response = cdsw.call_model(latest_model["accessKey"],no_churn_record)

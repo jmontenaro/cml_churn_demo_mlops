@@ -153,25 +153,25 @@ Model** and create a new model with the following details:
 * **Input**: 
 ```
 {
-	"StreamingTV": "No",
+	"TextAlerts": "No",
 	"MonthlyCharges": 70.35,
-	"PhoneService": "No",
-	"PaperlessBilling": "No",
+	"SavingsAccount": "No",
+	"PaperlessStatements": "No",
 	"Partner": "No",
-	"OnlineBackup": "No",
-	"gender": "Female",
-	"Contract": "Month-to-month",
+	"AccountTransfer": "No",
+	"Gender": "Female",
+	"Engagement": "Month-to-month",
 	"TotalCharges": 1397.475,
-	"StreamingMovies": "No",
-	"DeviceProtection": "No",
+	"Rewards": "No",
+	"OnlineBillPay": "No",
 	"PaymentMethod": "Bank transfer (automatic)",
-	"tenure": 29,
+	"Tenure": 29,
 	"Dependents": "No",
-	"OnlineSecurity": "No",
-	"MultipleLines": "No",
-	"InternetService": "DSL",
+	"OverdraftProtection": "No",
+	"Multiple": "No",
+	"VirtualWallet": "Virtual Wallet",
 	"SeniorCitizen": "No",
-	"TechSupport": "No"
+	"EmailAlerts": "No"
 }
 ```
 * **Kernel**: Python 3
@@ -226,8 +226,8 @@ churn prediction.
 
 ![single_view_1](images/single_view_1.png)
 
-Changing the InternetService to DSL lowers the probablity of churn. *Note: this does not mean 
-that changing the Internet Service to DSL cause the probability to go down, this is just what 
+Changing the VirtualWallet to Virtual Wallet lowers the probablity of churn. *Note: this does not mean 
+that changing the Internet Service to Virtual Wallet cause the probability to go down, this is just what 
 the model would predict for a customer with those data points*
 
 

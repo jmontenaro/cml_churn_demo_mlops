@@ -100,25 +100,25 @@
 # * **Input**: 
 # ```
 # {
-# 	"StreamingTV": "No",
+# 	"TextAlerts": "No",
 # 	"MonthlyCharges": 70.35,
-# 	"PhoneService": "No",
-# 	"PaperlessBilling": "No",
+# 	"SavingsAccount": "No",
+# 	"PaperlessStatements": "No",
 # 	"Partner": "No",
-# 	"OnlineBackup": "No",
-# 	"gender": "Female",
-# 	"Contract": "Month-to-month",
+# 	"AccountTransfer": "No",
+# 	"Gender": "Female",
+# 	"Engagement": "Month-to-month",
 # 	"TotalCharges": 1397.475,
-# 	"StreamingMovies": "No",
-#	  "DeviceProtection": "No",
+# 	"Rewards": "No",
+#	  "OnlineBillPay": "No",
 #	  "PaymentMethod": "Bank transfer (automatic)",
-#	  "tenure": 29,
+#	  "Tenure": 29,
 #	  "Dependents": "No",
-#	  "OnlineSecurity": "No",
-#	  "MultipleLines": "No",
-#	  "InternetService": "DSL",
+#	  "OverdraftProtection": "No",
+#	  "Multiple": "No",
+#	  "VirtualWallet": "Virtual Wallet",
 #	  "SeniorCitizen": "No",
-#	  "TechSupport": "No"
+#	  "EmailAlerts": "No"
 # }
 # ```
 #* **Kernel**: Python 3
@@ -195,7 +195,7 @@ def explain(args):
 
 # To test this is a session, comment out the `@cdsw.model_metrics`  line,
 # uncomment the and run the two rows below.
-#x={"StreamingTV":"No","MonthlyCharges":70.35,"PhoneService":"No","PaperlessBilling":"No","Partner":"No","OnlineBackup":"No","gender":"Female","Contract":"Month-to-month","TotalCharges":1397.475,"StreamingMovies":"No","DeviceProtection":"No","PaymentMethod":"Bank transfer (automatic)","tenure":29,"Dependents":"No","OnlineSecurity":"No","MultipleLines":"No","InternetService":"DSL","SeniorCitizen":"No","TechSupport":"No"}
+#x={"TextAlerts":"No","MonthlyCharges":70.35,"SavingsAccount":"No","PaperlessStatements":"No","Partner":"No","AccountTransfer":"No","Gender":"Female","Engagement":"Month-to-month","TotalCharges":1397.475,"Rewards":"No","OnlineBillPay":"No","PaymentMethod":"Bank transfer (automatic)","Tenure":29,"Dependents":"No","OverdraftProtection":"No","Multiple":"No","VirtualWallet":"Virtual Wallet","SeniorCitizen":"No","EmailAlerts":"No"}
 #explain(x)
 
 ## Wrap up

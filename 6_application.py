@@ -85,11 +85,11 @@ Image("images/table_view.png")
 #
 Image("images/single_view_1.png")
 #
-# Changing the *InternetService* to *DSL* lowers the probablity of churn.
-# **Note**: this obviously does *not* mean that you should change that customer's internet service to DSL
+# Changing the *VirtualWallet* to *Virtual Wallet* lowers the probablity of churn.
+# **Note**: this obviously does *not* mean that you should change that customer's internet service to Virtual Wallet
 # and expect they will be less likely to churn.
 # Imagine if your ISP did that to you.
-# Rather, the model is more optimistic about an otherwise identical customer who has been using DSL.
+# Rather, the model is more optimistic about an otherwise identical customer who has been using Virtual Wallet.
 # This information simply gives you a clearer view of what to expect given specific factors
 # as a starting point for developing your business strategies.
 # Furthermore, as you start implementing changes based on the model, it may change customers' behavior

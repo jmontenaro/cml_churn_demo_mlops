@@ -110,24 +110,24 @@ from churnexplainer import ExplainedModel, CategoricalEncoder
 
 data_dir = '/home/cdsw'
 
-idcol = 'customerID'
+idcol = 'CustomerID'
 labelcol = 'Churn'
-cols = (('gender', True),
+cols = (('Gender', True),
         ('SeniorCitizen', True),
         ('Partner', True),
         ('Dependents', True),
-        ('tenure', False),
-        ('PhoneService', True),
-        ('MultipleLines', True),
-        ('InternetService', True),
-        ('OnlineSecurity', True),
-        ('OnlineBackup', True),
-        ('DeviceProtection', True),
-        ('TechSupport', True),
-        ('StreamingTV', True),
-        ('StreamingMovies', True),
-        ('Contract', True),
-        ('PaperlessBilling', True),
+        ('Tenure', False),
+        ('SavingsAccount', True),
+        ('Multiple', True),
+        ('VirtualWallet', True),
+        ('OverdraftProtection', True),
+        ('AccountTransfer', True),
+        ('OnlineBillPay', True),
+        ('EmailAlerts', True),
+        ('TextAlerts', True),
+        ('Rewards', True),
+        ('Engagement', True),
+        ('PaperlessStatements', True),
         ('PaymentMethod', True),
         ('MonthlyCharges', False),
         ('TotalCharges', False))
