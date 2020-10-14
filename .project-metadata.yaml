@@ -71,7 +71,7 @@ tasks:
     name: telco_churn_model
     comment: Build churn model
     examples:
-      - request: '{"StreamingTV":"No","MonthlyCharges":70.35,"PhoneService":"No","PaperlessBilling":"No","Partner":"No","OnlineBackup":"No","gender":"Female","Contract":"Month-to-month","TotalCharges":1397.475,"StreamingMovies":"No","DeviceProtection":"No","PaymentMethod":"Bank transfer (automatic)","tenure":29,"Dependents":"No","OnlineSecurity":"No","MultipleLines":"No","InternetService":"DSL","SeniorCitizen":"No","TechSupport":"No"}'
+      - request: '{"TextAlerts":"No","MonthlyCharges":70.35,"SavingsAccount":"No","PaperlessStatements":"No","Partner":"No","AccountTransfer":"No","Gender":"Female","Engagement":"Month-to-month","TotalCharges":1397.475,"Rewards":"No","OnlineBillPay":"No","PaymentMethod":"Bank transfer (automatic)","Tenure":29,"Dependents":"No","OverdraftProtection":"No","Multiple":"No","VirtualWallet":"Virtual Wallet","SeniorCitizen":"No","EmailAlerts":"No"}'
         response: ""
     target_file_path: 5_model_serve_explainer.py
     target_function_name: explain
